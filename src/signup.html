@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="assets/styles/style.scss">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <nav class="navBar">
+        <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
+        <a class="icon" >&#9776;</a>
+        <div class="container-login">
+            <a href="login.html">Log in</a>
+            <a href="signup.html">Sign up</a>
+        </div>
+        <ul>
+            <li><a class="nav-link" href="login.html">Log in</a></li>
+            <li><a class="nav-link" href="signup.html">Sign up</a></li>
+            <li><a class="nav-link" href="FAQ.html">FAQ</a></li>
+            <li><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="container-signup">
+            <h3>Create an account</h3>
+            <p style="margin-bottom: 10px;">Register and gain access to favourites</p>
+            <form id="form" action="">
+                <label for="email"><span class="iconify-inline" data-icon="carbon:email"></span> Email Adress</label>
+                <input type="email" name="email" id="email" placeholder="Email Adress..." required>
+                <label for="password"><span class="iconify-inline" data-icon="carbon:password"></span> Password</label>
+                <input type="password" name="password" id="password" placeholder="Password..." required>
+                <label for="confpassword"><span class="iconify-inline" data-icon="carbon:password"></span> Confirm password</label>
+                <input type="password" name="confpassword" id="confpassword" placeholder="Password..." required>
+                <input type="checkbox" name="terms" id="terms" required>
+                <span>I agree to<a href="error404.html">Terms of Service</a> and<a href="error404.html">Privacy Policy</a></span>
+                <button class="captcha-button" type="submit">Submit</button>
+            </form>
+            <span>Already have an account? <a href="login.html">Login</a</span>
+        </div>
+    </main>
+    <footer>
+        <div class="container-footer">
+            <ul>
+                <li>About us:</li>
+                <li><a class="link-footer" href="contact.html">Contact</a></li>
+                <li><a class="link-footer" href="FAQ.html">FAQ</a></li>
+            </ul>
+            <ul>
+                <li>Social media:</li>
+                <li><a class="link-footer" href="error404.html" target="_blank"><span class="iconify-inline" data-icon="logos:twitter"></span> Twitter</a></li>
+                <li><a class="link-footer" href="error404.html" target="_blank"><span class="iconify-inline" data-icon="logos:facebook"></span> Facebook</a></li>
+                <li><a class="link-footer" href="error404.html" target="_blank"><span class="iconify-inline" data-icon="logos:linkedin-icon"></span> Linkedin</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+<script src="assets/scripts/responsiveNavBar.js"></script>
+<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+</html>

@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="assets/styles/style.scss">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
+        <a class="icon" >&#9776;</a>
+        <div class="container-login">
+            <a href="login.html">Sign in</a>
+            <a href="signup.html">Sign up</a>
+        </div>
+        <ul>
+            <li><a class="nav-link" href="login.html">Sign in</a></li>
+            <li><a class="nav-link" href="signup.html">Sign up</a></li>
+            <li><a class="nav-link" href="FAQ.html">FAQ</a></li>
+            <li><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="container-user-profile">
+            <h2>Account settings</h2>
+            <p>Profile picture</p>
+            <div class="container-profile-picture">
+                <span class="iconify" data-icon="carbon:user-avatar-filled" style="color: #fd9858; font-size: 7rem;"></span>
+                <button>Edit picture</button>
+            </div>
+            <form>
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" placeholder="Username">
+                <label for="email">Email adress</label>
+                <input type="email" name="email" id="email" placeholder="Email Adress">
+                <input type="submit" value="Save"> 
+            </form>
+            <div class="container-password">
+                <p>Password</p>
+                <span>Set a unique password to protect your account</span><button>Change password</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-footer">
+            <ul>
+                <li>About us:</li>
+                <li><a class="link-footer" href="contact.html">Contact</a></li>
+                <li><a class="link-footer" href="FAQ.html">FAQ</a></li>
+            </ul>
+            <ul>
+                <li>Social media:</li>
+                <li><a class="link-footer" href="error404.html" target="_blank"><span class="iconify-inline" data-icon="logos:twitter"></span> Twitter</a></li>
+                <li><a class="link-footer" href="error404.html" target="_blank"><span class="iconify-inline" data-icon="logos:facebook"></span> Facebook</a></li>
+                <li><a class="link-footer" href="error404.html" target="_blank"><span class="iconify-inline" data-icon="logos:linkedin-icon"></span> Linkedin</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="assets/scripts/responsiveNavBar.js"></script>
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+</body>
+</html>
