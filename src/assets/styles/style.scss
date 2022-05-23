@@ -51,16 +51,16 @@ nav {
     padding: 14px 16px;
     font-size: 1.6rem;
     margin-top: 45px;
-
-    &:hover {
-      background-color: #ffffff7a;
-      color: var(--main-color);
-    }
   }
 
   .icon {
     display: none;
     color: #ffffff;
+  }
+
+  ul{
+    padding: 1rem;
+    margin-top: 1rem;
   }
 }
 
@@ -152,12 +152,21 @@ h1 {
   flex-direction: row;
   justify-content: space-evenly;
 
+  a{
+    border: 2px solid transparent;
+  }
+
   a:hover {
     border: 2px solid #fec09a;
   }
 
+  img{
+    padding-bottom: 2rem;
+  }
+
   p{
-    font-size: small;
+    font-size: large;
+    padding-bottom: 2rem;
   }
 }
 
