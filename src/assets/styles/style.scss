@@ -662,7 +662,11 @@ footer a:hover {
 @media (prefers-color-scheme: dark) {
 
   body {
-      --background-color: rgb(53,53,53);
+    background-color: colors.$dark-mode;
+  }
+
+  main{
+    background-color: colors.$dark-mode;
   }
 
   h1{
